@@ -1,12 +1,17 @@
 #semaforo{
     width: 110px;
     margin: auto;
-    height: 350px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 
+}
+#negro{
+    align-items: center;
+    display: flex;
+    flex-direction: column
 }
 #palo{
     width: 10px;
@@ -32,7 +37,12 @@
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    
+}
+#purple{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
 }
 .glow{
     background-color: rgb(201, 201, 0);
